@@ -1,0 +1,63 @@
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 3.0s ease-out forwards;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  #back-to-top.hidden {
+    display: none;
+  }
+  /* Common background settings */
+.bg-related {
+    background-image: url('pics/about-bg.jpg'); /* Use similar background for coherence */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; /* Optional: Blends the background with a color overlay */
+  }
+  
+  /* Custom overlay colors for sections */
+  .bg-projects {
+    background: rgba(255, 255, 255, 0.8); /* Light background to make content stand out */
+  }
+  
+  .bg-skills {
+    background: rgba(0, 0, 0, 0.6); /* Darker background for contrast */
+  }
+  
+  .bg-contact {
+    background: rgba(255, 255, 255, 0.9); /* Slightly different, still complementary */
+  }
+  
+  /* Optional: Add some padding/margin for consistency */
+  .section-padding {
+    padding: 5rem 1rem; /* Adjust as needed */
+  }
+ 
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust the height of the float */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

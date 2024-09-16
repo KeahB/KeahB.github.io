@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keah's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    
+  </style>
+</head>
+<body class="bg-gray-900">
+
+  <!-- Header -->
+  <header class="bg-gray-900 shadow-lg">
+    <div class="container mx-auto flex flex-wrap items-center p-5">
+      <h1 class="text-2x1 md:text-3xl font-bold text-white">KB</h1>
+      <button id="menu-toggle" class="text-white block md:hidden ml-auto focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+      <nav id="navbar" class="w-full md:w-auto hidden md:flex md:items-center md:ml-auto flex-wrap space-x-6 mt-4 md:mt-0">
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a></li>
+          <li><a href="#projects" class="text-gray-300 hover:text-white transition-colors">Projects</a></li>
+          <li><a href="#skills" class="text-gray-300 hover:text-white transition-colors">Skills</a></li>
+          <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Hero Section (About) -->
+<section id="about" class="bg-gray-800 min-h-screen flex items-center">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center px-4 py-8">
+    
+      <div class="md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start justify-center md:pr-8 mb-8 md:mb-0 transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 transition-transform transform hover:scale-105 italic hover:opacity-90 duration-300 ease-in-out">Hello, I'm Keah Bareno!</h2>
+        <p class="text-base md:text-lg text-gray-200 mb-6 transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">A passionate student and aspiring web developer proficient in creating and styling web pages using HTML and CSS/Tailwind, ensuring responsive and visually appealing designs with basic knowledge of JavaScript for interactivity.</p>
+        <a href="#contact" class="px-4 py-2 md:px-6 md:py-2 bg-white text-indigo-600 font-semibold rounded-full shadow-lg hover:bg-gray-200 transition-colors duration-300 ease-in-out">
+          Get in Touch
+        </a>
+      </div>
+      
+      <div class="md:w-2/5 flex justify-center items-center transition-transform transform hover:scale-105 duration-300 float">
+        <img src="pics/keah.jpg" alt="Keah Bareno" class="w-3/4 md:w-full h-auto object-cover rounded-full transition-transform ">
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects" class="bg-gray-900 py-16 md:py-20 door-transition">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-12">Projects</h2>
+  
+      <!-- Projects Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        <!-- Project 1 -->
+        <div class="bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+          <img src="pics/project1.jpg" alt="Project 1" class="rounded-t-lg w-full h-48 object-cover">
+          <div class="p-4 md:p-6">
+            <h3 class="text-lg md:text-xl font-semibold text-white">Project One</h3>
+            <p class="text-gray-200 mt-2">A description of what the project does and the technologies used.</p>
+            <a href="#" class="text-indigo-900 mt-4 inline-block hover:text-indigo-700">View Project</a>
+          </div>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+          <img src="pics/project2.jpg" alt="Project 2" class="rounded-t-lg w-full h-48 object-cover">
+          <div class="p-4 md:p-6">
+            <h3 class="text-lg md:text-xl font-semibold text-white">Project Two</h3>
+            <p class="text-gray-200 mt-2">A description of what the project does and the technologies used.</p>
+            <a href="#" class="text-indigo-900 mt-4 inline-block hover:text-indigo-700">View Project</a>
+          </div>
+        </div>
+  
+        <!-- Project 3 -->
+        <div class="bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+          <img src="pics/project3.png" alt="Project 3" class="rounded-t-lg w-full h-48 object-cover">
+          <div class="p-4 md:p-6">
+            <h3 class="text-lg md:text-xl font-semibold text-white">Project Three</h3>
+            <p class="text-gray-200 mt-2">A description of what the project does and the technologies used.</p>
+            <a href="#" class="text-indigo-900 mt-4 inline-block hover:text-indigo-700">View Project</a>
+          </div>
+        </div>
+  
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Skills Section -->
+  <section id="skills" class="bg-gray-800 py-16 md:py-20 fade-in">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-8">Skills</h2>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+        <!-- HTML Skill -->
+        <div class="p-4 md:p-6 bg-gray-900 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+          <img src="pics/html.png" alt="HTML" class="w-10 h-10 md:w-12 md:h-12 mx-auto mb-4">
+          <h3 class="text-base md:text-lg font-semibold text-gray-400">HTML</h3>
+        </div>
+        
+        <!-- JavaScript Skill -->
+        <div class="p-4 md:p-6 bg-gray-900 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+          <img src="pics/js.png" alt="JavaScript" class="w-10 h-10 md:w-12 md:h-12 mx-auto mb-4">
+          <h3 class="text-base md:text-lg font-semibold text-gray-400">JavaScript</h3>
+        </div>
+        
+        <!-- Tailwind CSS Skill -->
+        <div class="p-4 md:p-6 bg-gray-900 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+          <img src="pics/tailwind.jpeg" alt="Tailwind CSS" class="w-10 h-10 md:w-12 md:h-12 mx-auto mb-4">
+          <h3 class="text-base md:text-lg font-semibold text-gray-400">Tailwind CSS</h3>
+        </div>
+
+        <!--  CSS Skill -->
+        <div class="p-4 md:p-6 bg-gray-900 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:opacity-90 duration-300 ease-in-out">
+            <img src="pics/css.png" alt=" CSS" class="w-10 h-10 md:w-12 md:h-12 mx-auto mb-4">
+            <h3 class="text-base md:text-lg font-semibold text-gray-400"> CSS</h3>
+          </div>
+        <!-- Add more skills if needed -->
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-900 min-h-screen py-16 md:py-20 fade-in">
+    <div class="container mx-auto px-4 md:px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Get in Touch</h2>
+        <p class="text-base md:text-lg text-gray-200 mb-8">Feel free to reach out if you have any questions or just want to connect!</p>
+      </div>
+  
+      <form action="#" method="POST" class="max-w-md mx-auto bg-gray-800 rounded-lg shadow-lg p-6 md:p-8">
+        <!-- Name -->
+        <div class="mb-4">
+          <label for="name" class="block text-left text-gray-400 font-semibold mb-2">Name</label>
+          <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300" placeholder="Your name" required>
+        </div>
+  
+        <!-- Email -->
+        <div class="mb-4">
+          <label for="email" class="block text-left text-gray-400 font-semibold mb-2">Email</label>
+          <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300" placeholder="Your email" required>
+        </div>
+  
+        <!-- Message -->
+        <div class="mb-4">
+          <label for="message" class="block text-left text-gray-400 font-semibold mb-2">Message</label>
+          <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300" placeholder="Your message" required></textarea>
+        </div>
+  
+        <button type="submit" class="w-full bg-indigo-600 text-white font-bold py-2 rounded-lg hover:bg-indigo-700 transition-colors">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-5 right-5 bg-indigo-600 text-white p-3 rounded-full shadow-lg hover:bg-indigo-700 transition-colors">
+    ↑
+  </button>
+  
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-8">
+    <div class="container mx-auto text-center text-gray-300 px-4">
+      <p class="text-sm md:text-base mb-4">© 2024 Keah Bareno. All rights reserved.</p>
+      <div class="flex justify-center space-x-4">
+        <a href="https://www.facebook.com/keahbareno8?mibextid=ZbWKwL" target="_blank" class="hover:text-white transition-colors">Facebook</a>
+        <a href="https://github.com/keahb" target="_blank" class="hover:text-white transition-colors">GitHub</a>
+        <a href="mailto:barenokcy@gmail.com" class="hover:text-white transition-colors">Email</a>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
